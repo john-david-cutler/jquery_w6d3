@@ -1,0 +1,100 @@
+body, div, html {
+    margin: 0;
+    padding: 0;
+  }
+
+#contentContainer {
+  background-color:#eee;
+  width:80%;
+  height:100vh;
+  margin:0 auto;
+
+}
+
+#topComment {
+  background-color:white;
+  position: fixed;
+  width:80%;
+  top:0
+}
+
+#middleComment{
+  margin-top: 100px;
+  display:flex;
+  justify-content:space-between;
+}
+
+#middleCommentIconUserText{
+  display:flex;
+  justify-content:flex-start;
+}
+
+#middleEditDelete{
+  display:flex;
+  justify-content:space-between;
+}
+
+#middleEdit{
+  margin-right:10px;
+  color:blue;
+}
+
+#middleDelete{
+  margin-right:10px;
+  color:blue;
+}
+
+.middleCommentSubmit{
+  display:flex;
+  justify-content:space-between;
+  margin:10px;
+  width:80%;
+}
+
+#middleSubmit{
+  margin-right:10px;
+  color:blue;
+}
+
+.noDisplay{
+  display:none;
+}
+
+#bottomContainer {
+  background-color:white;
+  position: fixed;
+  width:80%;
+  bottom:0;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+#bottomDisplayName {
+  width:200px;
+  margin:10px;
+}
+
+#bottomComment {
+  width:500px;
+  margin:10px;
+}
+
+#bottomSubmit {
+  border:none;
+  background-color: white;
+  color:blue;
+  text-align: right;
+}
+
+h1 {
+  font-family:Helvetica;
+  margin:0;
+  padding:0;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+}
